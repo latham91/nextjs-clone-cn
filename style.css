@@ -309,6 +309,11 @@ nav {
 
 /* FEATURES */
 
+#features {
+  border-bottom: 1px solid #888888;
+  padding-bottom: 76px;
+}
+
 .features-container {
   margin: 0 auto;
   max-width: 1200px;
@@ -411,4 +416,29 @@ nav {
   font-size: 15px;
   color: #888888;
   line-height: 1.5;
+}
+
+/* TOOLS SECTION */
+
+#tools-section {
+  padding: 76px 0;
+  border-bottom: 1px solid #888888;
+  background-color: #000000;
+}
+
+.tools-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.tools-container h2 {
+  font-size: 32px;
+}
+
+.gradient-text {
+  background: linear-gradient(180deg, #fff, #adadad);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
