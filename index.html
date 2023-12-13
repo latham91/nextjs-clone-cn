@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Next.js by Aaron - The React Framework</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <div class="nav-brand">
+          <img src="./assets/triangle.png" alt="triangle" />
+          <img src="./assets/slash.png" alt="slash image" class="slash-img" />
+          <img src="./assets/logo.png" alt="logo image" />
+        </div>
+        <div class="nav-links">
+          <a href="#">Showcase<i class="fa-thin fa-arrow-right"></i></a>
+          <a href="#">Docs</a>
+          <a href="#">Blog</a>
+          <a href="#" class="nav-icon-link">
+            Analytics
+            <img
+              src="./assets/icons/arrow-up-right.svg"
+              alt="icon"
+              class="nav-icon"
+            />
+          </a>
+          <a href="#" class="nav-icon-link">
+            Templates
+            <img
+              src="./assets/icons/arrow-up-right.svg"
+              alt="icon"
+              class="nav-icon"
+            />
+          </a>
+          <a href="#" class="nav-icon-link">
+            Enterprise
+            <img
+              src="./assets/icons/arrow-up-right.svg"
+              alt="icon"
+              class="nav-icon"
+            />
+          </a>
+        </div>
+        <div class="nav-actions">
+          <input
+            type="search"
+            placeholder="Search documentation..."
+            class="nav-search"
+          />
+          <a href="#" class="deploy-btn">
+            <img src="./assets/triangle.png" alt="triangle" height="15px" />
+            Deploy
+          </a>
+          <a href="#" class="learn-btn"> Learn </a>
+        </div>
+      </nav>
+    </header>
+
+    <div id="hero-features">
+      <section id="hero">
+        <div class="hero-news">
+          <div class="hero-news-container">
+            <div>
+              <div class="pill">New</div>
+            </div>
+            <p>
+              Introducing new features on Vercel's
+              <strong class="white">DX Platform</strong> to help scale code
+              health, performance, and security.
+            </p>
+            <a href="#" class="read-news-btn">
+              Read the news
+              <img
+                src="./assets/icons/chevron-right.svg"
+                alt="chevron-right"
+                height="15px"
+              />
+            </a>
+          </div>
+        </div>
+        <h1>The React Framework for the Web</h1>
+        <div class="hero-desc">
+          <p>
+            Used by some of the world's largest companies, Next.js enables you
+            to create
+            <strong class="white">full-stack Web applications</strong> by
+            extending the latest React features, and integrating powerful
+            Rust-based JavaScript tooling for the fastest builds.
+          </p>
+          <div>
+            <div class="hero-actions-container">
+              <div class="hero-actions">
+                <div class="action-btns">
+                  <a href="" class="get-started-btn">Get Started</a>
+                  <a href="" class="learn-next-btn">Learn Next.js</a>
+                </div>
+                <div class="code-text">
+                  <code>
+                    <img src="./assets/triangle.png" />
+                    ~ npx create-next-app@latest</code
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features">
+        <div class="features-container">
+          <div class="features-heading">
+            <h2>What's in Next.js?</h2>
+            <p>All the tools you need to make the Web. Faster.</p>
+          </div>
+        </div>
+        <div class="cards-container">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/windows-dark.png"
+                alt="windows-dark"
+                width="300px"
+              />
+            </div>
+            <div class="card-heading">
+              <div class="card-title">
+                <h3>Built-in Optimizations</h3>
+              </div>
+              <div class="card-description">
+                <p>
+                  Automatic Image, Font, and Script Optimizations for improved
+                  UX and Core Web Vitals.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/website-dark.png"
+                alt="windows-dark"
+                height="220px"
+              />
+            </div>
+            <div class="card-heading">
+              <div class="card-title">
+                <h3>Dynamic HTML Streaming</h3>
+              </div>
+              <div class="card-description">
+                <p>
+                  Instantly stream UI from the server, integrated with the App
+                  Router and React Suspense.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/spheres-dark.png"
+                alt="windows-dark"
+                width="280px"
+              />
+            </div>
+            <div class="card-heading">
+              <div class="card-title">
+                <h3>Dynamic HTML Streaming</h3>
+              </div>
+              <div class="card-description">
+                <p>
+                  Instantly stream UI from the server, integrated with the App
+                  Router and React Suspense.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards-container">
+          <div class="feature-card">
+            <div class="feature-card-title">
+              <h3>Data Fetching</h3>
+              <p>
+                Make your React component async and await your data. Next.js
+                supports both server and client data fetching.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card-title">
+              <h3>CSS Support</h3>
+              <p>
+                Style your application with your favorite tools, including
+                support for CSS Modules, Sass, Tailwind CSS, styled-jsx and
+                more.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card-title">
+              <h3>Client and Server Rendering</h3>
+              <p>
+                Flexible rendering and caching options, including Incremental
+                Static Regeneration (ISR), on a per-page level.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card-title">
+              <h3>Node.js & Edge Runtimes</h3>
+              <p>
+                Build scalable solutions with Serverless functions, and deliver
+                fast and dynamic, personalised content with the Edge.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card-title">
+              <h3>Advanced Routing & Nested Layouts</h3>
+              <p>
+                Create routes using the file system, including support for more
+                advanced routing patterns and UI layouts.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card-title">
+              <h3>Middleware</h3>
+              <p>
+                Take control of the incoming request. Use code to define routing
+                and access rules for authentication, experimentation, and
+                internationalization.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
